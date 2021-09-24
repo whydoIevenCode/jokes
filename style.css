@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Architects Daughter", cursive;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(149, 167, 30);
+  background: radial-gradient(
+    circle,
+    rgba(149, 167, 30, 1) 0%,
+    rgba(172, 196, 29, 1) 58%,
+    rgba(192, 211, 80, 1) 74%,
+    rgba(209, 255, 0, 1) 100%
+  );
+  text-align: center;
+}
+.container {
+  color: rgb(53, 53, 53);
+  background-color: #fff;
+  max-width: 90%;
+  width: 40rem;
+  padding: 3rem 3rem;
+  border-radius: 1rem;
+}
+.container h1 {
+  font-size: 4rem;
+}
+#joke {
+  font-size: 2rem;
+}
+.btn {
+  display: inline-block;
+  margin-top: 2rem;
+  cursor: pointer;
+  border: none;
+  background-image: radial-gradient(
+    circle,
+    rgba(149, 167, 30, 1) 0%,
+    rgba(172, 196, 29, 1) 58%,
+    rgba(192, 211, 80, 1) 74%,
+    rgba(209, 255, 0, 1) 100%
+  );
+  font-family: inherit;
+  color: #fff;
+  font-size: 1.8rem;
+  padding: 0.6rem 3rem;
+  box-shadow: 0 0.5rem 1.4rem rgba(0, 0, 0, 0.226);
+  border-radius: 100px;
+  transition: all 0.3s;
+}
+.btn:focus {
+  outline: none;
+}
+.btn:active {
+  transform: translateY(2px);
+  box-shadow: 0 0.3rem 0.8rem rgba(0, 0, 0, 0.226);
+}
