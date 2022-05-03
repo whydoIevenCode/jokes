@@ -1,1 +1,1 @@
-# jokes
+https://whydoievencode.github.io/jokes/
