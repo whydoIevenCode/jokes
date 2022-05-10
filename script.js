@@ -17,6 +17,7 @@ const changeHtml = function () {
     getJoke();
   } else {
     jokeEl.textContent = joke.setup + " " + joke.delivery;
+    btn.textContent = "Get New Joke";
   }
 };
 btn.addEventListener("click", getJoke);
